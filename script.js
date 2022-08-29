@@ -4,7 +4,7 @@ $(document).ready(function(){
         var email = $('input[id=email]').val();
         var password = $('input[id=password]').val();
         var conpass = $('input[id=confirm_password]').val();
-        var terms = $('input[id=terms]:checked');
+        var terms = $('#terms').is(":checked")
 
         alert(terms);
     });
